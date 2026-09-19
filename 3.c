@@ -10,7 +10,7 @@ void push(char ch);
     top++;
     stack[top]=ch;
 }
-char pop();
+char pop()
 {
     return stack[top--];
 }
