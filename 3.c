@@ -21,6 +21,8 @@ int main(){
     for(int i=0;i<strlen(str);i++){
         push(str[i]);
 
+    }
+    printf("Reversed string is:");
     while(top!=-1){
         printf("%c",pop());
     }
